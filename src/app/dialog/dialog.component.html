@@ -1,0 +1,16 @@
+<div class="container my_modal">
+  <div class="row">
+    <div class="col-md-4">
+      <epoch-wish [wishId]="imdbID"></epoch-wish>
+      <img class="custom-image" src="{{image}}" alt="">
+    </div>
+    <div class="col-md-8">
+      <button type="button" class="close" (click)="close()" >&times;</button>
+      <div class="modal-title">Title: {{title}}</div>
+      <div class="modal-year">Year: {{year}}</div>
+      <div class="modal-imdb">Director: {{director}} </div>
+      <div class="modal-imdb">Actors: {{actor}}</div>
+
+    </div>
+  </div>
+</div>

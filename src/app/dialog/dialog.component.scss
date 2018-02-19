@@ -1,0 +1,28 @@
+.my_modal{
+  background-color: darkgray;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translateX(-50%,-50%);
+  border: solid 1px gainsboro;
+  border-radius: 10px;
+}
+.modal-title{
+  position: relative;
+  top: 5%;
+  font-size: 25px;
+  color: azure;
+  font-weight: bold;
+}
+.modal-year{
+  position: relative;
+  top: 10%;
+  font-size: 18px;
+  color: aliceblue;
+}
+.modal-imdb{
+  position: relative;
+  top: 30%;
+  font-size: 25px;
+  color: azure;
+}
