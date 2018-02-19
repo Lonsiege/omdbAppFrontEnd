@@ -1,0 +1,38 @@
+.hovering-span {
+  display: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  text-shadow: 1px 1px 2px black, 0 0;
+}
+
+.hovering {
+}
+
+.hovering:hover ~ .hovering-span {
+  display: block;
+}
+
+.hovering-span:hover {
+  display: block;
+}
+
+.movie-card {
+  position: relative;
+}
+.wish-image{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: red;
+  cursor: pointer;
+}
+.wish-image:hover {
+  font-size: 25px;
+}
+.wish-image:hover ~ .hovering-span {
+  display: block;
+}

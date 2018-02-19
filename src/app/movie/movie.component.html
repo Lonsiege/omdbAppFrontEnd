@@ -1,0 +1,5 @@
+<div class="movie-card" >
+  <epoch-wish [wishId]="cinema.imdbID"></epoch-wish>
+  <img class="hovering custom-image" src="{{cinema.Poster}}" (click)="openDialog(cinema)">
+  <span class="hovering-span" (click)="openDialog(cinema)">{{cinema.Year}} {{cinema.Title}}</span>
+</div>
